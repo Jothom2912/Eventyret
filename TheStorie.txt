@@ -1,0 +1,96 @@
+scene0:
+    title: Skovens Begyndelse
+    text: Du står ved indgangen til en mystisk skov. To stier strækker sig foran dig - en til højre badet i et svagt månelys, en til venstre mørknet af tætte grene.
+    choices:
+        0: (1) Tag stien til højre -> scene01
+        1: (2) Tag stien til venstre -> scene02
+
+scene01:
+    title: Skovvogteren
+    text: En gammel skovvogter med grå øjne træder frem. Hans kappe er vævet med mystiske runer, og han holder en krokket stav.
+    choices:
+        0: (1) Lyt til skovvogterens historie -> scene111
+        1: (2) Ignorer ham og fortsæt -> sceneDeath1
+
+scene111:
+    title: Skovens Hemmelighed
+    text: Skovvogteren fortæller om en gammel profeti om en vandrer, der skal finde tre magiske genstande for at genoprette skovens balance.
+    choices:
+        0: (1) Accepter opdraget -> scene211
+        1: (2) Afvis opdraget -> sceneDeath2
+
+scene211:
+    title: Farens Time
+    text: Du kommer til et kritisk punkt i rejsen. En smal sti snor sig langs en afgrund.
+    choices:
+        0: (1) Gå videre langs stien -> scene311
+        1: (2) Søg en anden vej -> sceneDeath3
+
+scene311:
+    title: Afgørende Øjeblik
+    text: Du når et vendepunkt. Foran dig ligger en gammel stenportal overdækket af mørke ranker.
+    choices:
+        0: (1) Gå gennem portalen -> scene221
+        1: (2) Se dig om efter en anden vej -> sceneDeath4
+
+scene02:
+    title: Den Mørke Sti
+    text: Du vælger stien til venstre. Grenene danner en næsten uigennemtrængelig tunnel.
+    choices:
+        0: (1) Bevæg dig dybere ind -> scene121
+        1: (2) Vend om mod lysningen -> sceneDeath5
+
+scene121:
+    title: Skovens Dyb
+    text: Du finder en gammel stenportal delvist skjult af efeu. En svag blå lysning skinner gennem revnerne.
+    choices:
+        0: (1) Undersøg portalen -> scene221
+        1: (2) Fortsæt forbi -> sceneDeath6
+
+scene221:
+    title: Magisk Portal
+    text: Portalen åbner sig langsomt, og du ser en ny verden bag den. Du tager skridtet fremad...
+    choices:
+        0: (1) Gå videre -> scene0 (Start spillet forfra)
+
+sceneDeath1:
+    title: Farlig Beslutning
+    text: Du ignorerede skovvogterens advarsel og fortsatte blindt. En skygge opsluger dig, og du dør øjeblikkeligt.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
+
+sceneDeath2:
+    title: Skæbnesvanger Tvivl
+    text: Din tøven kostede dig livet. En usynlig kraft trækker dig ned i mørket.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
+
+sceneDeath3:
+    title: Farlig Vej
+    text: Din uklogelige rute førte dig direkte i en dødbringende fælde. Skoven har taget dig.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
+
+sceneDeath4:
+    title: Sidste Fejltrin
+    text: Et øjeblik af tøven blev din skæbne. Du dør alene i skovens mørke.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
+
+sceneDeath5:
+    title: Skovens Dom
+    text: Du vendte om for tidligt. Skoven accepterer ikke svage vandrer.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
+
+sceneDeath6:
+    title: Ubeslutsomhedens Pris
+    text: Din tøven blev din undergang. Skoven lukker sig om dig.
+    choices:
+        0: (1) Start spillet forfra -> scene0
+        1: (2) Start spillet forfra -> scene0
